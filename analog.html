@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .flex-box {
+            display: flex;
+        }
+        li{
+            list-style: none;
+        }
+        body {
+            padding: 50px
+        }
+        .wrap {
+            width: 1000px;
+            margin: 0 auto;
+            border: 1px double black ;
+        }
+        header {
+            padding: 50px 0;
+        }
+        header .logo{
+            text-align: center;
+        }
+        header nav {
+            margin-top: 50px;
+            border-top: 3px solid black;
+        }
+        header nav ul{
+            margin-top: 20px;
+            justify-content: space-around;
+            padding-bottom: 20px;
+            border-bottom: 1px solid black;
+        }
+        .main .main-img {
+            text-align: center;
+        }
+
+        .main-img img {
+            width: 800px;
+        }
+        .main-text {
+            margin-top: 20px;
+            font-size: 18px;
+            letter-spacing: 5px;
+            padding: 0 20px;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="container">
+            <div class="logo">
+                <h1><img src="./image/logo.gif" alt=""></h1>
+            </div>
+            <nav class="menu">
+                <ul class="flex-box">
+                    <li>HOME</li>
+                    <li>FOR SALE</li>
+                    <li>REPAIRS</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main container">
+            <div class="main-img ">
+                <img src="./image/keys.jpg" alt="">
+            </div>
+            <div class="main-text">
+                <p>We specialize in the sale and repair of classic keyboards, in particular the Fender Rhodes, Wurlitzer EP200, and Hohner Clavinet</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
